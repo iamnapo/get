@@ -2,7 +2,13 @@
   "name": "@iamnapo/get",
   "version": "1.0.0",
   "description": "Get the value at a specific object (or string) path, without caring if it exists",
-  "keywords": [],
+  "keywords": [
+    "object",
+    "array",
+    "string",
+    "path",
+    "get"
+  ],
   "homepage": "https://github.com/iamnapo/get#readme",
   "bugs": {
     "url": "https://github.com/iamnapo/get/issues"
@@ -16,7 +22,8 @@
   },
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "lint": "eslint . --cache",
