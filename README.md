@@ -2,7 +2,7 @@
 
 > Get the value at a specific object (or string) path, without caring if it exists
 
-[![build](https://img.shields.io/github/workflow/status/iamnapo/get/ci?style=for-the-badge&logo=github&label=)](https://github.com/iamnapo/get/actions) [![npm](https://img.shields.io/npm/v/@iamnapo/get.svg?style=for-the-badge&logo=npm&label=)](https://www.npmjs.com/package/@iamnapo/get) [![license](https://img.shields.io/github/license/iamnapo/get.svg?style=for-the-badge)](./LICENSE)
+[![build](https://img.shields.io/github/workflow/status/iamnapo/get/ci?style=for-the-badge&logo=github&label=)](https://github.com/iamnapo/get/actions) [![npm](https://img.shields.io/npm/v/@iamnapo/get.svg?style=for-the-badge&logo=npm&label=)](https://www.npmjs.com/package/@iamnapo/get) [![size](https://img.shields.io/bundlephobia/min/@iamnapo/get.svg?style=for-the-badge&label=size)](https://bundlephobia.com/result?p=@iamnapo/get) [![license](https://img.shields.io/github/license/iamnapo/get.svg?style=for-the-badge)](./LICENSE)
 
 ## Install
 
