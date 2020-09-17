@@ -1,0 +1,46 @@
+{
+  "name": "@iamnapo/get",
+  "version": "0.0.0",
+  "description": "Get the value at a specific object (or string) path, without caring if it exists",
+  "keywords": [],
+  "homepage": "https://github.com/iamnapo/get#readme",
+  "bugs": {
+    "url": "https://github.com/iamnapo/get/issues"
+  },
+  "repository": "github:iamnapo/get",
+  "license": "MIT",
+  "author": {
+    "name": "Napoleon-Christos Oikonomou",
+    "email": "napoleonoikon@gmail.com",
+    "url": "https://iamnapo.me"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --cache",
+    "start": "node index.js",
+    "test": "npm run lint && ava"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.12.1",
+    "eslint": "^7.9.0",
+    "eslint-config-iamnapo": "^7.0.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-unicorn": "^21.0.0",
+    "husky": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
