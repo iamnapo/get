@@ -37,15 +37,15 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "ava": "^3.12.1",
-    "eslint": "^7.9.0",
-    "eslint-config-iamnapo": "^7.0.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-unicorn": "^21.0.0",
+    "ava": "^3.13.0",
+    "eslint": "^7.10.0",
+    "eslint-config-iamnapo": "^8.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-unicorn": "^22.0.0",
     "husky": "^4.3.0"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=10"
   },
   "publishConfig": {
     "access": "public"

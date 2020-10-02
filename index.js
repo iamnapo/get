@@ -1,11 +1,5 @@
-const assertString = (string) => {
-	if (typeof string !== "string") {
-		throw new TypeError("Expected a string");
-	}
-};
-
 const get = (object, path, defaultValue) => {
-	assertString(path);
+	if (typeof path !== "string") throw new TypeError("Expected a string");
 
 	const result = path.split(/[.[\]]+?/).filter(Boolean).reduce((res, key) => (res != null ? res[key] : res), object);
 

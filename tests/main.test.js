@@ -7,4 +7,5 @@ test("main", (t) => {
 	t.is(get("napo", "[1]"), "a");
 	t.is(get({ a: { b: 1 } }, "a.b"), 1);
 	t.is(get({ a: { b: 1 } }, "a.c", "blah"), "blah");
+	t.throws(() => get({ a: { b: 1 } }, 0, 1), { instanceOf: TypeError });
 });
