@@ -1,6 +1,6 @@
 {
   "name": "@iamnapo/get",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the value at a specific object (or string) path, without caring if it exists",
   "keywords": [
     "object",
