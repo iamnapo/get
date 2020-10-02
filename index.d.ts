@@ -8,5 +8,5 @@ get("napo", "[1]"); // => "a"
 get({ a: { b: 1 } }, "a.c", "blah"); // => "blah"
 ```
 */
-declare function get(object: object | Array<any> | string, path: string, defaultValue?: any): any;
+declare function get(object: Record<string, unknown> | unknown[] | string, path: string, defaultValue?: unknown): unknown;
 export = get;
