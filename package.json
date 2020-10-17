@@ -1,53 +1,52 @@
 {
-  "name": "@iamnapo/get",
-  "version": "1.0.2",
-  "description": "Get the value at a specific object (or string) path, without caring if it exists",
-  "keywords": [
-    "object",
-    "array",
-    "string",
-    "path",
-    "get"
-  ],
-  "homepage": "https://github.com/iamnapo/get#readme",
-  "bugs": {
-    "url": "https://github.com/iamnapo/get/issues"
-  },
-  "repository": "github:iamnapo/get",
-  "license": "MIT",
-  "author": {
-    "name": "Napoleon-Christos Oikonomou",
-    "email": "napoleonoikon@gmail.com",
-    "url": "https://iamnapo.me"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
-  "scripts": {
-    "lint": "eslint . --cache",
-    "start": "node index.js",
-    "test": "npm run lint && ava"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "ava": "^3.13.0",
-    "eslint": "^7.10.0",
-    "eslint-config-iamnapo": "^8.0.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-unicorn": "^22.0.0",
-    "husky": "^4.3.0"
-  },
-  "engines": {
-    "node": ">=10"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@iamnapo/get",
+	"version": "1.0.2",
+	"description": "Get the value at a specific object (or string) path, without caring if it exists",
+	"keywords": [
+		"object",
+		"array",
+		"string",
+		"path",
+		"get"
+	],
+	"homepage": "https://github.com/iamnapo/get#readme",
+	"bugs": {
+		"url": "https://github.com/iamnapo/get/issues"
+	},
+	"repository": "github:iamnapo/get",
+	"license": "MIT",
+	"author": {
+		"name": "Napoleon-Christos Oikonomou",
+		"email": "napoleonoikon@gmail.com",
+		"url": "https://iamnapo.me"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"scripts": {
+		"lint": "eslint . --cache",
+		"start": "node index.js",
+		"test": "npm run lint && ava"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm test"
+		}
+	},
+	"devDependencies": {
+		"ava": "^3.13.0",
+		"eslint": "^7.11.0",
+		"eslint-config-iamnapo": "^9.0.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-unicorn": "^23.0.0",
+		"husky": "^4.3.0"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
